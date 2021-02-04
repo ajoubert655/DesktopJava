@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="TravelFormPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="662.0" prefWidth="707.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TravelDetailsDisplay.Controller">
+   <children>
+      <ComboBox id="cmbCustomerId" fx:id="cmbCustomerId" layoutX="340.0" layoutY="116.0" prefHeight="26.0" prefWidth="147.0" AnchorPane.topAnchor="116.0">
+         <opaqueInsets>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+         </padding></ComboBox>
+      <Label id="lblCustomerFirstName" layoutX="181.0" layoutY="217.0" prefHeight="18.0" prefWidth="131.0" text="Customer First Name:">
+         <padding>
+            <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+         </padding></Label>
+      <Label id="lblCustomerLastName" layoutX="181.0" layoutY="260.0" prefHeight="26.0" prefWidth="131.0" text="Customer Last Name:">
+         <padding>
+            <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+         </padding></Label>
+      <Label id="lblCustomerCountry" layoutX="196.0" layoutY="308.0" prefHeight="26.0" prefWidth="123.0" text="Customer Country:">
+         <padding>
+            <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+         </padding></Label>
+      <Label id="lblCustomerCity" layoutX="217.0" layoutY="351.0" prefHeight="26.0" prefWidth="94.0" text="Customer City:">
+         <padding>
+            <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+         </padding></Label>
+      <Label id="lblBookingId" layoutX="231.0" layoutY="396.0" prefHeight="26.0" prefWidth="82.0" text="Booking ID:">
+         <padding>
+            <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+         </padding></Label>
+      <Label id="lblBookingDate" layoutX="217.0" layoutY="444.0" prefHeight="26.0" prefWidth="94.0" text="Booking Date:">
+         <padding>
+            <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+         </padding></Label>
+      <Label id="lblTripTypeId" layoutX="231.0" layoutY="489.0" prefHeight="26.0" prefWidth="82.0" text="TripType ID:">
+         <padding>
+            <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+         </padding></Label>
+      <Label id="lblPackageId" layoutX="230.0" layoutY="534.0" prefHeight="26.0" prefWidth="82.0" text="Package ID:">
+         <padding>
+            <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+         </padding></Label>
+      <Label id="lblCustomerId" fx:id="lblcmbId" layoutX="110.0" layoutY="124.0" text="Select a Customer and Booking ID:">
+         <padding>
+            <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+         </padding></Label>
+      <TextField id="txtCustFirstName" fx:id="txtCustFirstName" layoutX="340.0" layoutY="213.0">
+         <opaqueInsets>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+         </padding></TextField>
+      <TextField id="txtCustLastName" fx:id="txtCustLastName" layoutX="340.0" layoutY="257.0">
+         <opaqueInsets>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+         </padding></TextField>
+      <TextField id="txtCustCountry" fx:id="txtCustCountry" layoutX="340.0" layoutY="305.0">
+         <opaqueInsets>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+         </padding></TextField>
+      <TextField id="txtCustCity" fx:id="txtCustCity" layoutX="340.0" layoutY="348.0">
+         <opaqueInsets>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+         </padding></TextField>
+      <TextField id="txtBookingId" fx:id="txtBookingId" layoutX="340.0" layoutY="393.0">
+         <opaqueInsets>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+         </padding></TextField>
+      <TextField id="txtBookingDate" fx:id="txtBookingDate" layoutX="340.0" layoutY="441.0">
+         <opaqueInsets>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+         </padding></TextField>
+      <TextField id="txtTripTypeId" fx:id="txtTripTypeId" layoutX="340.0" layoutY="485.0">
+         <opaqueInsets>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+         </padding></TextField>
+      <TextField id="txtPackageId" fx:id="txtPackageId" layoutX="340.0" layoutY="531.0">
+         <opaqueInsets>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+         </padding></TextField>
+      <Button id="btnSave" fx:id="btnSave" layoutX="406.0" layoutY="601.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="Save">
+         <padding>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+         </padding></Button>
+      <Button id="btnCancel" fx:id="btnCancel" layoutX="531.0" layoutY="601.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="Cancel">
+         <padding>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+         </padding></Button>
+      <Button fx:id="btnEdit" layoutX="147.0" layoutY="601.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="Edit">
+         <padding>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+         </padding></Button>
+      <Label layoutX="226.0" layoutY="171.0" text="Customer ID:">
+         <padding>
+            <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+         </padding></Label>
+      <TextField fx:id="txtCustomerId" layoutX="340.0" layoutY="167.0">
+         <opaqueInsets>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+         </padding></TextField>
+      <Button fx:id="btnAdd" layoutX="278.0" layoutY="601.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="Add">
+         <padding>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+         </padding></Button>
+      <Label layoutX="240.0" layoutY="34.0" prefHeight="50.0" prefWidth="348.0" text="Travel Experts">
+         <font>
+            <Font name="Century Gothic" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
